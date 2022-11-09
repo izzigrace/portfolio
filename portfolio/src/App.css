@@ -12,23 +12,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.helloWorldIAm {
-  margin-top: 200px;
-  color: white;
-  font-size: 40px;
-}
-
-.isabelleSmith {
-  color: #7ed957;
-  font-size: 120px;
-}
-
-.aFullStackSE {
-  color: #2a3ce1;
-  font-size: 45px;
-}
-
-.App-link {
-  color: #61dafb;
-}

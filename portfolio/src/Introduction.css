@@ -1,0 +1,34 @@
+.helloWorldIAm {
+  margin-top: 200px;
+  color: white;
+  font-size: 40px;
+}
+
+.emptyDiv {
+  font-size: 120px;
+  color: #1b1d24;
+}
+.isabelleSmith {
+  color: #7ed957;
+  font-size: 120px;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.aFullStackSE {
+  color: #2a3ce1;
+  font-size: 45px;
+}
+
+.App-link {
+  color: #61dafb;
+}
