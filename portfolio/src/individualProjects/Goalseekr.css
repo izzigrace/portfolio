@@ -1,21 +1,22 @@
-.sdc {
+.allGoalseekr {
   display: flex;
-  height: 350px;
+  height: 100%;
 }
 
-.sdcModel {
-  height: 30%;
+.wholeGoalseekrModelComponent {
+  height: 80%;
+  margin-left: 20%;
+  float: right;
 }
 
 .words {
   margin-top: 8%;
-  margin-right: 10%;
+  margin-left: 10%;
   display: inline;
-  height: 100px;
   /* width: 600px; */
 }
 
-.qanda {
+.goalseekr {
   color: #7ed957;
   font-size: 50px;
   font-weight: bold;
@@ -31,7 +32,7 @@
   /* height: 100%; */
 }
 
-.qandaAndTech {
+.goalseekrAndTech {
   display: flex;
   color: #7ed957;
   /* height: 100%; */
@@ -43,3 +44,6 @@
   font-size: 15px;
 }
 
+.goalseekrModel {
+  height: 100%;
+}
