@@ -9,7 +9,7 @@ import Projects from './Projects.jsx';
 function App() {
   return (
     <div className="App">
-      <Introduction/>
+      {/* <Introduction/> */}
       <Projects/>
     </div>
   );

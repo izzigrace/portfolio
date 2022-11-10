@@ -17,9 +17,10 @@ class SdcThree extends React.Component {
 
         // webglrenderer displays your scene using webgl. antialias: true is making it more realistic by smoothing jagged lines
         var renderer = new THREE.WebGLRenderer({ antialias: true });
-        renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.setSize( window.innerWidth * 0.5, window.innerHeight * 0.5);
         renderer.setClearColor( 0x000000, 0 ); //??
-        document.body.appendChild( renderer.domElement );
+        const theDiv = document.getElementById("sdcDiv");
+        theDiv.appendChild( renderer.domElement );
 
         //make and position camera
         var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
@@ -63,8 +64,7 @@ class SdcThree extends React.Component {
 
   render() {
     return (
-      <div>
-
+      <div id="sdcDiv" className="sdcModel">
       </div>
     )
   }
