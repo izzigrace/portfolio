@@ -5,7 +5,7 @@ import GoalseekrThree from './GoalseekrThree.jsx';
 function Sdc() {
   return (
     <div className="allGoalseekr">
-      <div className="words">
+      <div className="wordsGoalseekr">
         <div className="goalseekrAndTech">
           <div className="goalseekr">
             Goalseekr

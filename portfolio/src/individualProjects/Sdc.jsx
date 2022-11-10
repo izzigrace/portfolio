@@ -12,7 +12,7 @@ function Sdc() {
             Qanda
           </div>
           <div className="techStack">
-            Node, Express.js, PostgreSQL, NGINX, AWS
+            Node · Express.js · PostgreSQL · NGINX · AWS
           </div>
         </div>
         <div className="description">

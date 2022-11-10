@@ -9,10 +9,12 @@
   float: right;
 }
 
-.words {
+.wordsGoalseekr {
   margin-top: 8%;
-  margin-left: 10%;
+  margin-left: 15%;
+  width: 45%;
   display: inline;
+  position: absolute;
   /* width: 600px; */
 }
 
@@ -46,4 +48,5 @@
 
 .goalseekrModel {
   height: 100%;
+  margin-left: 52%;
 }

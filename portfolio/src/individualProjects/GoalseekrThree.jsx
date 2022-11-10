@@ -20,6 +20,7 @@ class SdcThree extends React.Component {
         var renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize( window.innerWidth * 0.5, window.innerHeight * 0.5);
         renderer.setClearColor( 0x000000, 0 ); //??
+        renderer.outputEncoding = THREE.sRGBEncoding;
         const theGDiv = document.getElementById("goalseekrDiv");
         theGDiv.appendChild( renderer.domElement );
 
@@ -30,9 +31,9 @@ class SdcThree extends React.Component {
         scene.add(camera);
 
         //make lights
-        const ambientLight = new THREE.AmbientLight( 0xffffff, 1.1 );
+        const ambientLight = new THREE.AmbientLight( 0xffffff, 0.3 );
         scene.add( ambientLight );
-        var light = new THREE.PointLight( 0xffffff, 1 );
+        var light = new THREE.PointLight( 0xffffff, 1.3 );
         camera.add( light );
 
         const gltfLoader = new GLTFLoader();

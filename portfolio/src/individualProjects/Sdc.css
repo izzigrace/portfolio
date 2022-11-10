@@ -5,13 +5,15 @@
 
 .sdcModel {
   height: 30%;
+  margin-left: 3%;
 }
 
 .words {
   margin-top: 8%;
-  margin-right: 10%;
+  margin-left: 45%;
+  width: 45%;
   display: inline;
-  height: 100px;
+  position: absolute;
   /* width: 600px; */
 }
 
