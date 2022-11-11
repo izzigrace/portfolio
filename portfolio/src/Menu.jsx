@@ -18,7 +18,7 @@ function Menu() {
           <a href="url" className="link">Resume</a>
         </div>
       </div> */}
-      <div className="popOutMenu">
+      {/* <div className="popOutMenu">
         <div className="justMenusMenuNoLogo">
           <a href="url" className="menusLink">About</a>
           <div className="dot">·</div>
@@ -27,9 +27,10 @@ function Menu() {
           <a href="url" className="menusLink">Contact</a>
         </div>
         <img src={menuLines} className="greenMenu"></img>
-      </div>
+      </div> */}
+
       <img src={logo} className="logo"></img>
-      {/* <img src={menuLines} className="menuLines"></img> */}
+      <img src={menuLines} className="menuLines"></img>
     </div>
   );
 }

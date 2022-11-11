@@ -55,21 +55,25 @@
 }
 
 .greenMenu {
-  color: white;
+  color: #7ed957;
   height: 35px;
-  margin-top: 1.6%;
-  margin-right: 2.2%;
+  float: right;
+  /* margin-top: 1.6%;
+  margin-right: 2.2%; */
 }
 
 .popOutMenu {
   float: right;
   display: flex;
+  margin-top: 1.6%;
+  margin-right: 2.2%;
 }
 
 .justMenusMenuNoLogo {
   font-size: 130%;
   margin-right: 1%;
   display: flex;
+  /* float: left; */
 }
 
 .menusLink {
