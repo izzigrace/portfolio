@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* align-items: center; */
 }
 
 .App-header {
@@ -11,4 +12,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.aboutMe {
+  width: 40%;
+  font-size: 40px;
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+}
+
+.holdsAboutMe {
+  width: 100%;
+  align-items: center;
 }

@@ -26,7 +26,8 @@ function Introduction() {
               'A Full Stack Software Engineer.^5000']}
               typeSpeed={40}
               backSpeed={50}
-              loop >
+              // loop
+              >
         </Typed>
         </div>
       </div>

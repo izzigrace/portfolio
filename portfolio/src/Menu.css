@@ -1,0 +1,22 @@
+.menu {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+
+.logo {
+  color: white;
+  height: 40px;
+  float: left;
+  margin-top: 1.6%;
+  margin-left: 2.2%;
+}
+
+.menuLines {
+  color: white;
+  height: 35px;
+  float: right;
+  margin-top: 1.6%;
+  margin-right: 2.2%;
+}

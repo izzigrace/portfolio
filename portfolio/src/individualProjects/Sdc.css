@@ -10,10 +10,10 @@
 
 .words {
   margin-top: 8%;
-  margin-left: 45%;
+  margin-left: -6%;
   width: 45%;
   display: inline;
-  position: absolute;
+  /* position: absolute; */
   /* width: 600px; */
 }
 
