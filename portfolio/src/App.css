@@ -15,11 +15,14 @@
 }
 
 .aboutMe {
-  width: 40%;
-  font-size: 40px;
+  /* width: 60%; */
+  font-size: 35px;
   margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 15%; /* take away soon */
   color: white;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .holdsAboutMe {
