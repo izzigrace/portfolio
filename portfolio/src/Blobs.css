@@ -11,6 +11,14 @@
 }
 
 .blobs {
-  height: 10%;
+  height: 100%;
+  width: 100%;
   position: absolute;
+}
+
+.pinkgreenblob {
+  height: 80%;
+  float: right;
+  position: absolute;
+  margin-left: 80%;
 }

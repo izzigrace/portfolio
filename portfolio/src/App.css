@@ -22,10 +22,17 @@
   margin-right: 15%;
   margin-bottom: 13%; /* take away soon */
   color: white;
+  z-index: 5;
   /* text-align: center; */
 }
 
 .holdsAboutMe {
   width: 100%;
   align-items: center;
+  z-index: 5;
+}
+
+.blobsComponent {
+  position: absolute;
+  z-index: 0;
 }
