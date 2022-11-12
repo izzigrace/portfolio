@@ -8,26 +8,26 @@ function Menu() {
 
   return (
     <div className="menu">
-      {/* <div className="popOutMe">
-        <img src={logo} className="greenLogo"></img>
+      <div className="popOutMe">
+        {/* <img src={logo} className="greenLogo"></img> */}
         <div className="justMenuNoLogo">
-          <a href="url" className="link">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/isabelle-smith6/" className="link">LinkedIn</a>
           <div className="dot">·</div>
-          <a href="url" className="link">GitHub</a>
+          <a href="https://github.com/izzigrace" className="link">GitHub</a>
           <div className="dot">·</div>
-          <a href="url" className="link">Resume</a>
+          <a href="https://drive.google.com/file/d/1dwkvLmwZ1wfzVQhS0W7JDEOkVxkMh2uw/view?usp=share_link" className="link">Resume</a>
         </div>
-      </div> */}
-      {/* <div className="popOutMenu">
+      </div>
+      <div className="popOutMenu">
         <div className="justMenusMenuNoLogo">
           <a href="url" className="menusLink">About</a>
-          <div className="dot">·</div>
+          <div className="menuDot">·</div>
           <a href="url" className="menusLink">Projects</a>
-          <div className="dot">·</div>
+          <div className="menuDot">·</div>
           <a href="url" className="menusLink">Contact</a>
         </div>
-        <img src={menuLines} className="greenMenu"></img>
-      </div> */}
+        {/* <img src={menuLines} className="greenMenu"></img> */}
+      </div>
 
       <img src={logo} className="logo"></img>
       <img src={menuLines} className="menuLines"></img>
