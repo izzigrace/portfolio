@@ -6,7 +6,7 @@ import Goalseekr from './individualProjects/Goalseekr.jsx';
 function Projects() {
   return (
     <div>
-      <Sdc/>
+      <Sdc />
       <Goalseekr />
     </div>
   )
