@@ -6,23 +6,20 @@ import { useState, useEffect } from 'react';
 import Introduction from './Introduction.jsx';
 import Projects from './Projects.jsx';
 import Menu from './Menu.jsx';
+import Blobs from './Blobs.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      {/* <Menu />
       <Introduction />
       <div className="holdsAboutMe">
         <div className="aboutMe">
           I am a driven and detail oriented software engineer who employs intuition and creativity when problem-solving, searching for solutions from multiple angles. I enjoy working independently but thrive in a collaborative environment because I love learning through the lens of those who share a common goal but have differing perspectives and aptitudes.
-          {/* I am a driven and
-          thrive on deep collaboration
-          who likes to employ creative solutions to problems
-          approach problems from multiple angles
-          i am comfortable both working autonomously and working in groups and seeing other persepctives */}
         </div>
-      </div>
+      </div> */}
       {/* <Projects /> */}
+      <Blobs />
     </div>
   );
 }

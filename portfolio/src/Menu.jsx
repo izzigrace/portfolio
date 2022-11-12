@@ -11,16 +11,16 @@ function Menu() {
       <div className="popOutMe">
         {/* <img src={logo} className="greenLogo"></img> */}
         <div className="justMenuNoLogo">
-          <a href="https://www.linkedin.com/in/isabelle-smith6/" className="link">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/isabelle-smith6/" className="link" target="_blank" rel="noreferrer">LinkedIn</a>
           <div className="dot">·</div>
-          <a href="https://github.com/izzigrace" className="link">GitHub</a>
+          <a href="https://github.com/izzigrace" className="link" target="_blank" rel="noreferrer">GitHub</a>
           <div className="dot">·</div>
-          <a href="https://drive.google.com/file/d/1dwkvLmwZ1wfzVQhS0W7JDEOkVxkMh2uw/view?usp=share_link" className="link">Resume</a>
+          <a href="https://drive.google.com/file/d/1dwkvLmwZ1wfzVQhS0W7JDEOkVxkMh2uw/view?usp=share_link" className="link" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
       <div className="popOutMenu">
         <div className="justMenusMenuNoLogo">
-          <a href="url" className="menusLink">About</a>
+          <a href="url" className="menusLink" >About</a>
           <div className="menuDot">·</div>
           <a href="url" className="menusLink">Projects</a>
           <div className="menuDot">·</div>

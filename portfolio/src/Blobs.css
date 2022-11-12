@@ -1,0 +1,16 @@
+.hello {
+  color: white;
+  height: 100px;
+}
+
+.blob1 {
+  transform: scale(0.2);
+  margin-right: 50%;
+  /* height: 1000px; */
+  position: absolute;
+}
+
+.blobs {
+  height: 10%;
+  position: absolute;
+}
