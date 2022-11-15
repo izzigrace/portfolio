@@ -1,0 +1,46 @@
+.mvp {
+  display: flex;
+  height: 350px;
+}
+
+.mvpModel {
+  height: 30%;
+  margin-left: 3%;
+}
+
+.words {
+  margin-top: 8%;
+  margin-left: -6%;
+  width: 45%;
+  display: inline;
+  /* position: absolute; */
+  /* width: 600px; */
+}
+
+.cube {
+  color: #7ed957;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  height: 100%;
+}
+
+.description {
+  color: #2a3ce1;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 2%;
+  /* height: 100%; */
+}
+
+.cubeAndTech {
+  display: flex;
+  color: #7ed957;
+  /* height: 100%; */
+}
+
+.techStack {
+  margin-top: 4.7%;
+  margin-left: 3%;
+  font-size: 15px;
+}

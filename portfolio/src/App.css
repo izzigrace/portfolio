@@ -36,3 +36,7 @@
   position: absolute;
   z-index: 0;
 }
+
+.projectsComponent {
+  z-index: 8;
+}

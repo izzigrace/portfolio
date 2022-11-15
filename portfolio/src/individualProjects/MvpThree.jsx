@@ -2,9 +2,9 @@ import React from "react";
 import * as THREE from "three";
 import { GLTFLoader } from '../three.js/three.js-master/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from '../three.js/three.js-master/examples/jsm/controls/OrbitControls.js';
-import serverModel from '../gltfs/server.gltf';
+import serverModel from '../gltfs/cube.gltf';
 
-class SdcThree extends React.Component {
+class MvpThree extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -38,6 +38,7 @@ class SdcThree extends React.Component {
         let server = new THREE.Group();
         gltfLoader.load(serverModel, function(gltf) {
           let server1 = gltf.scene;
+          gltf.scene.scale.set(0.58, 0.58, 0.58);
           server1.rotation.y = 3.14;
           server.add(server1);
           scene.add(server1);
@@ -70,4 +71,4 @@ class SdcThree extends React.Component {
   }
 }
 
-export default SdcThree;
+export default MvpThree;
