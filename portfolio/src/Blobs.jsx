@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
 import React from "react";
-// import Snap from "snapsvg";
-import { ReactComponent as Blob1 } from './blobSVGs/blob1.svg';
 import './Blobs.css';
 import pinkblob from './blobSVGs/allpinkblob.png';
 import pinkgreenblob from './blobSVGs/pinkgreenblob.png';
 import { Parallax } from "react-scroll-parallax";
+import * as KUTE from "kute.js";
 
 class Blobs extends React.Component {
   constructor(props) {
@@ -14,15 +13,29 @@ class Blobs extends React.Component {
   }
 
   componentDidMount() {
+    console.log('-__-');
+    var loop1 = KUTE.default.fromTo('#circleblob', {path: '#circleblob' }, { path: '#blob' });
+    var loop2 = KUTE.default.fromTo('#blob', {path: '#blob' }, { path: '#blob3' });
+    var loop3 = KUTE.default.fromTo('#blob3', {path: '#blob3' }, { path: '#circleblob' });
 
+    var animationLoop = function() {
+      // loop1.chain(loop2);
+      // loop2.chain(loop3);
+      // loop3.chain(loop1);
+      loop1.start();
+      loop2.start();
+    }();
   }
 
   render() {
     return (
       <Parallax speed={-40} className="blobs">
-        {/* <Blob1 className="blob1" /> */}
-        <img src={pinkblob} className="pinkgreenblob"></img>
-        {/* <img src={pinkgreenblob} className="pinkgreenblob"></img> */}
+        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="600" zoomAndPan="magnify" viewBox="0 0 2250 2250.000011" height="600" preserveAspectRatio="xMidYMid meet" version="1.0">
+          <path id="circleblob" fill="#c244c0" d="M 1746.367188 258.894531 C 1890.636719 353.175781 1978.105469 533.792969 2019 711.003906 C 2059.894531 887.074219 2054.214844 1059.738281 2026.949219 1226.726562 C 2000.824219 1394.847656 1954.25 1557.285156 1859.964844 1698.144531 C 1765.679688 1839.003906 1625.957031 1958.277344 1460.105469 2020.753906 C 1293.121094 2084.367188 1102.28125 2091.183594 938.703125 2030.980469 C 776.257812 1969.636719 641.078125 1841.273438 517.261719 1700.417969 C 393.441406 1560.695312 279.84375 1409.613281 235.542969 1235.8125 C 190.105469 1062.011719 212.824219 865.492188 292.339844 696.234375 C 371.859375 526.976562 508.171875 384.984375 669.480469 298.652344 C 829.648438 212.320312 1015.945312 181.648438 1209.058594 170.289062 C 1402.171875 157.792969 1602.101562 165.746094 1746.367188 258.894531 Z M 1746.367188 258.894531 " fillOpacity="1" fillRule="nonzero"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="300" zoomAndPan="magnify" viewBox="0 0 2250 2250.000011" height="300" preserveAspectRatio="xMidYMid meet" version="1.0"><path id="blob" fill="#a6d16c" d="M 508.09375 914.230469 C 1091.875 663.992188 558.558594 368.546875 967.527344 210.730469 C 1376.5 52.917969 1678.484375 440.390625 1606.621094 942.886719 C 1559.386719 1272.238281 2296.179688 1861.917969 1699.882812 2077.042969 C 1103.582031 2292.171875 1056.75 1761.820312 658.683594 1689.574219 C 185.117188 1603.203125 206.511719 1043.386719 508.09375 914.230469 Z M 508.09375 914.230469 " fillOpacity="1" fillRule="nonzero" style={{visibility: "hidden"}} /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="300" zoomAndPan="magnify" viewBox="0 0 2250 2250.000011" height="300" preserveAspectRatio="xMidYMid meet" version="1.0"><path id="blob3" fill="#ffd180" d="M 1274.390625 291.851562 C 1205.539062 305.863281 1162.480469 319.921875 1119.464844 359.980469 C 981.71875 482.222656 970.238281 596.445312 864.113281 764.78125 C 729.238281 983.222656 666.128906 1009.265625 491.109375 1161.605469 C 468.144531 1179.628906 450.921875 1197.695312 430.867188 1215.71875 C 267.332031 1358.011719 120.976562 1632.550781 304.605469 1808.90625 C 341.921875 1842.972656 382.070312 1871.039062 436.609375 1899.070312 C 488.238281 1925.113281 537.039062 1955.167969 611.628906 1935.160156 C 663.300781 1921.144531 712.058594 1887.039062 757.984375 1863.019531 C 806.785156 1836.976562 855.542969 1808.90625 915.78125 1796.875 C 973.152344 1784.847656 1056.398438 1778.851562 1116.636719 1790.882812 C 1240.027344 1814.941406 1415.046875 1971.25 1633.125 1867.03125 C 1934.40625 1722.753906 1799.535156 1490.257812 1902.832031 1251.765625 C 1940.148438 1163.585938 2023.351562 1029.316406 1971.683594 905.046875 C 1940.105469 824.886719 1888.476562 800.828125 1856.902344 772.757812 C 1839.679688 756.71875 1874.125 762.753906 1819.585938 734.683594 C 1796.621094 722.652344 1730.640625 658.535156 1707.675781 622.445312 C 1693.324219 600.410156 1684.710938 576.351562 1673.230469 546.296875 C 1633.042969 430.046875 1564.191406 379.945312 1458.019531 321.863281 C 1397.78125 289.78125 1351.851562 277.75 1274.390625 291.808594 Z M 1274.390625 291.851562 " fillOpacity="1" fillRule="evenodd" /></svg>
+        {/* <img src={pinkblob} className="pinkgreenblob"></img> */}
       </Parallax>
     );
   }

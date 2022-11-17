@@ -29,7 +29,7 @@
   font-size: 130%;
   margin-left: 33%;
   display: flex;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .link {
@@ -72,7 +72,7 @@
 }
 
 .justMenusMenuNoLogo {
-  visibility: hidden;
+  /* visibility: hidden; */
   font-size: 130%;
   display: flex;
   margin-top: 0.3%;
@@ -83,4 +83,9 @@
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
+}
+
+.newMenuDiv {
+  display: flex;
+  margin-left: 0%;
 }
