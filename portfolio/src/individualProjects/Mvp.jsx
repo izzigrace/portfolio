@@ -8,11 +8,11 @@ function Mvp() {
       <MvpThree classname="mvpModel" />
       <div className="words">
         <div className="cubeAndTech">
-          <div className="cube">
-            Cube
-          </div>
           <div className="techStack">
             Node · Express.js · React · Three.js · MongoDB
+          </div>
+          <div className="cube">
+            Cube
           </div>
         </div>
         <div className="description">

@@ -12,7 +12,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 function App() {
   return (
     <ParallaxProvider className="App">
-      <Blobs className="blobsComponent"/>
+      {/* <Blobs className="blobsComponent"/> */}
       <Menu />
       <Introduction />
       <div className="holdsAboutMe">

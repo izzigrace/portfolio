@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
   /* align-items: center; */
 }
 
@@ -35,6 +36,7 @@
 .blobsComponent {
   position: absolute;
   z-index: 0;
+  margin-left: 80%;
 }
 
 .projectsComponent {
