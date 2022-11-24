@@ -37,19 +37,19 @@ function Menu() {
 
   function rollOutMenu() {
     setTimeout(() => {
-      setContact(<a href="url" className="menusLink" >Contact</a>);
+      setContact(<a href="url" className="menusLink1" >Contact</a>);
     }, 30);
     setTimeout(() => {
       setDotTwo(<div className="dot">·</div>);
     }, 60);
     setTimeout(() => {
-      setProjects(<a href="url" className="menusLink">Projects</a>);
+      setProjects(<a href="url" className="menusLink2">Projects</a>);
     }, 90);
     setTimeout(() => {
       setDotOne(<div className="dot">·</div>);
     }, 120);
     setTimeout(() => {
-      setAbout(<a href="url" className="menusLink" >About</a>);
+      setAbout(<a href="url" className="menusLink3" >About</a>);
     }, 150);
   }
 
@@ -87,7 +87,8 @@ function Menu() {
         <img src={menuLines} className="menuLines" onMouseOver={() => {rollOutMenu()}}></img>
       </div>
 
-      <div className="divThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}}></div>
+      <div className="divThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}} ></div>
+      <div className="otherDivThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}} ></div>
 
     </div>
   );

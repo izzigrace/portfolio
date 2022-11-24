@@ -40,10 +40,6 @@
   margin-right: 8%;
 }
 
-.linkedInLink {
-  margin-left: 40%;
-}
-
 .dot {
   font-size: 250%;
   color: #7ed957;
@@ -100,4 +96,159 @@
   position: absolute;
   margin-top: 4.2%;
   height: 1500%;
+}
+.otherDivThatHelpsMenuGoAway {
+  position: absolute;
+  margin-left: 29%;
+  width: 43%;
+  height: 200%;
+}
+
+
+.menusLink1 {
+  text-decoration: none;
+  color: #7ed957;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.menusLink1::after {
+  margin-left: 88.1%;
+  content: '';
+  position: absolute;
+  width: 4.4%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.menusLink1:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.menusLink2 {
+  text-decoration: none;
+  color: #7ed957;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.menusLink2::after {
+  margin-left: 80.2%;
+  content: '';
+  position: absolute;
+  width: 4.5%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.menusLink2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.menusLink3 {
+  text-decoration: none;
+  color: #7ed957;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.menusLink3::after {
+  margin-left: 73.3%;
+  content: '';
+  position: absolute;
+  width: 3.5%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.menusLink3:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.resumeLink {
+  text-decoration: none;
+  color: #7ed957;
+  margin-top: 10.5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.resumeLink::after {
+  margin-left: 23.08%;
+  content: '';
+  position: absolute;
+  width: 4.5%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.resumeLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.githubLink {
+  text-decoration: none;
+  color: #7ed957;
+  margin-top: 10.5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.githubLink::after {
+  margin-left: 15.87%;
+  content: '';
+  position: absolute;
+  width: 3.9%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.githubLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.linkedInLink {
+  text-decoration: none;
+  color: #7ed957;
+  margin-top: 10.5%;
+  margin-left: 40%;
+  margin-right: 8%;
+}
+.linkedInLink::after {
+  margin-left: 7.9%;
+  content: '';
+  position: absolute;
+  width: 4.5%;
+  transform: scaleX(0);
+  height: 1.35px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ed957;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+.linkedInLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
