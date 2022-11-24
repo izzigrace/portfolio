@@ -61,6 +61,7 @@
   height: 35px;
   margin-top: -3%;
   margin-left: 5%;
+  float: right;
   /* position: absolute; */
 }
 .menuLines:hover {

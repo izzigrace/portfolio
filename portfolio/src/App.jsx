@@ -8,10 +8,17 @@ import Projects from './Projects.jsx';
 import Menu from './Menu.jsx';
 import Blobs from './Blobs.jsx';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import gif from './loadingGif/blobLoader.gif';
 
 function App() {
+  const [loadingDiv, setLoadingDiv] = useState(<img src={gif} className="gif"></img>);
+
+  useEffect(() => {setLoadingDiv(<div></div>)}, []);
+
+
   return (
     <ParallaxProvider className="App">
+      {loadingDiv}
       {/* <Blobs className="blobsComponent"/> */}
       <Menu />
       <Introduction />

@@ -3,8 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import gif from './loadingGif/blobLoader.gif';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// var thing = <img src={gif} className="gif"></img>
+
+// window.onload = (event) => {
+//     console.log("page is fully loaded");
+//     thing = <App />;
+//  };
+
 root.render(
     <App />
 );

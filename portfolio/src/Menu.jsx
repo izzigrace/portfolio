@@ -11,8 +11,13 @@ function Menu() {
   const [resumeDiv, setResumeDiv] = useState(<div></div>);
   const [menuDotOne, setMenuDotOne] = useState(<div></div>);
   const [menuDotTwo, setMenuDotTwo] = useState(<div></div>);
+  const [about, setAbout] = useState(<a href="url" className="menusLink" style={{visibility: "hidden"}} >About</a>);
+  const [projects, setProjects] = useState(<a href="url" className="menusLink" style={{visibility: "hidden"}} >Projects</a>);
+  const [contact, setContact] = useState(<a href="url" className="menusLink" style={{visibility: "hidden"}} >Contact</a>);
+  const [dotOne, setDotOne] = useState(<div className="dot" style={{visibility: "hidden"}} >·</div>);
+  const [dotTwo, setDotTwo] = useState(<div className="dot" style={{visibility: "hidden"}} >·</div>);
 
-  function rollOutMeMenu () {
+  function rollOutMeMenu() {
     setTimeout(() => {
       setLinkedInDiv(<a href="https://www.linkedin.com/in/isabelle-smith6/" className="linkedInLink" target="_blank" rel="noreferrer">LinkedIn</a>);
     }, 30);
@@ -30,12 +35,35 @@ function Menu() {
     }, 150);
   };
 
+  function rollOutMenu() {
+    setTimeout(() => {
+      setContact(<a href="url" className="menusLink" >Contact</a>);
+    }, 30);
+    setTimeout(() => {
+      setDotTwo(<div className="dot">·</div>);
+    }, 60);
+    setTimeout(() => {
+      setProjects(<a href="url" className="menusLink">Projects</a>);
+    }, 90);
+    setTimeout(() => {
+      setDotOne(<div className="dot">·</div>);
+    }, 120);
+    setTimeout(() => {
+      setAbout(<a href="url" className="menusLink" >About</a>);
+    }, 150);
+  }
+
   function menuGoAway () {
     setLinkedInDiv(<div></div>);
     setMenuDotOne(<div></div>);
     setGithubDiv(<div></div>);
     setMenuDotTwo(<div></div>);
     setResumeDiv(<div></div>);
+    setAbout(<a href="url" className="menusLink" style={{visibility: "hidden"}} >About</a>);
+    setDotOne(<div className="dot" style={{visibility: "hidden"}} >·</div>);
+    setProjects(<a href="url" className="menusLink" style={{visibility: "hidden"}} >Projects</a>);
+    setDotTwo(<div className="dot" style={{visibility: "hidden"}} >·</div>);
+    setContact(<a href="url" className="menusLink" style={{visibility: "hidden"}} >Contact</a>);
   }
 
   return (
@@ -50,12 +78,13 @@ function Menu() {
       </div>
 
       <div className="popOutMenu">
-        <a href="url" className="menusLink" >About</a>
-        <div className="dot">·</div>
-        <a href="url" className="menusLink">Projects</a>
-        <div className="dot">·</div>
-        <a href="url" className="menusLink">Contact</a>
-        <img src={menuLines} className="menuLines"></img>
+        {about}
+        {dotOne}
+        {projects}
+        {dotTwo}
+        {contact}
+
+        <img src={menuLines} className="menuLines" onMouseOver={() => {rollOutMenu()}}></img>
       </div>
 
       <div className="divThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}}></div>
