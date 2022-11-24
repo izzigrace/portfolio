@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import React from "react";
 import './Blobs.css';
-import pinkblob from './blobSVGs/allpinkblob.png';
-import pinkgreenblob from './blobSVGs/pinkgreenblob.png';
+// import pinkblob from './blobSVGs/allpinkblob.png';
+// import pinkgreenblob from './blobSVGs/pinkgreenblob.png';
 import { Parallax } from "react-scroll-parallax";
 import * as KUTE from "kute.js";
 

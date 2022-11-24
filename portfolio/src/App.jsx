@@ -21,13 +21,13 @@ function App() {
       {loadingDiv}
       {/* <Blobs className="blobsComponent"/> */}
       <Menu />
-      <Introduction />
+      {/* <Introduction />
       <div className="holdsAboutMe">
         <div className="aboutMe">
-          I am a driven and detail oriented software engineer who employs intuition and creativity when problem-solving, searching for solutions from multiple angles. I enjoy working independently but thrive in a collaborative environment because I love learning through the lens of those who share a common goal but have differing perspectives and aptitudes.
+          I am a driven and detail oriented software engineer who employs intuition and creativity when problem-solving, searching for solutions from multiple angles. I thrive both working independently and in a collaborative environment. Scroll to read more about me, or hover over the top right and left corners to navigate to other parts of my website!
         </div>
-      </div>
-      {/* <Projects className="projectsComponent"/> */}
+      </div> */}
+      <Projects className="projectsComponent"/>
     </ParallaxProvider>
   );
 }

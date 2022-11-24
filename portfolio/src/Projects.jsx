@@ -7,9 +7,9 @@ import Mvp from './individualProjects/Mvp.jsx';
 function Projects() {
   return (
     <div>
-      <Mvp />
       <Goalseekr />
-      <Sdc />
+      <Mvp />
+      {/* <Sdc /> */}
     </div>
   )
 }

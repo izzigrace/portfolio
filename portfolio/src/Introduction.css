@@ -2,6 +2,7 @@
   margin-top: 160px;
   color: white;
   font-size: 40px;
+  font-family: "OscanExpanded-Outline";
 }
 
 .emptyDiv {
@@ -14,6 +15,7 @@
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  font-family: 'Bowlby One', cursive;
 }
 @keyframes fadeInAnimation {
   0% {

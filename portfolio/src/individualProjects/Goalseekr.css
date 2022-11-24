@@ -20,13 +20,15 @@
 
 .goalseekr {
   color: #7ed957;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
   text-align: left;
   height: 100%;
+  font-family: 'Bowlby One', cursive;
+  letter-spacing: 2px;
 }
 
-.description {
+.descriptionGoalSeekr {
   color: #2a3ce1;
   font-size: 25px;
   text-align: left;
@@ -44,9 +46,20 @@
   margin-top: 4.7%;
   margin-left: 3%;
   font-size: 15px;
+  width: 200%;
 }
 
 .goalseekrModel {
   height: 100%;
   margin-left: 52%;
+}
+
+.links {
+  display: flex;
+}
+.link {
+  height: 35px;
+}
+.github {
+  height: 35px;
 }

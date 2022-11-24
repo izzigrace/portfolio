@@ -15,7 +15,7 @@ function Introduction() {
   return (
     <div className="App">
       <div className="helloWorldIAm">
-        Hello World! I am:
+        HELLO WORLD! I AM:
       </div>
       {nameDiv}
       <div className="aFullStackSE">

@@ -87,7 +87,7 @@ function Menu() {
         <img src={menuLines} className="menuLines" onMouseOver={() => {rollOutMenu()}}></img>
       </div>
 
-      <div className="divThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}} ></div>
+      {/* <div className="divThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}} ></div> */}
       <div className="otherDivThatHelpsMenuGoAway" onMouseOver={() => {menuGoAway()}} ></div>
 
     </div>
