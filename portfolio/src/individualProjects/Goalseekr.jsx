@@ -12,7 +12,7 @@ function Goalseekr() {
           <div className="goalseekr">
             Goalseekr
           </div>
-          <div className="techStack">
+          <div className="techStackGoalseekr">
             Redux.js · PostgreSQL · React.js · JavaScript
           </div>
         </div>
@@ -22,6 +22,7 @@ function Goalseekr() {
         <div className="links">
           <img src={github} className="github" ></img>
           <img src={link} className="link" ></img>
+          <div className="lineDivGoalseekr"></div>
         </div>
       </div>
       <GoalseekrThree classname="wholeGoalseekrModelComponent" />

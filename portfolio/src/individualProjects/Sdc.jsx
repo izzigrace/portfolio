@@ -11,11 +11,11 @@ function Sdc() {
           <div className="qanda">
             Qanda
           </div>
-          <div className="techStack">
+          <div className="techStackSDC">
             Node · Express.js · PostgreSQL · NGINX · AWS
           </div>
         </div>
-        <div className="description">
+        <div className="descriptionSDC">
           and optimized backend of a retail website built to withstand thousands of clients at once
         </div>
       </div>

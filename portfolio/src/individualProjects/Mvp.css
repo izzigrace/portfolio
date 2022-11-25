@@ -9,9 +9,9 @@
 }
 
 .words {
-  margin-top: 8%;
-  margin-left: -6%;
-  width: 45%;
+  margin-top: 6%;
+  margin-left: -12%;
+  width: 46%;
   display: inline;
   /* position: absolute; */
   /* width: 600px; */
@@ -40,12 +40,36 @@
 .cubeAndTech {
   display: flex;
   color: #7ed957;
-  margin-left: 27%;
+  margin-left: 17.5%;
+  width: 90%
   /* height: 100%; */
 }
 
 .techStack {
-  margin-top: 4.7%;
+  margin-top: 5.7%;
   margin-left: 3%;
   font-size: 15px;
+  text-align: right;
+}
+
+
+.linksMVP {
+  display: flex;
+  margin-top: 3%;
+  /* float: right; */
+}
+.linkMVP {
+  height: 35px;
+}
+.githubMVP {
+  height: 35px;
+  margin-right: 2%;
+}
+.lineDivMVP {
+  width: 82%;
+  height: 2px;
+  background-color: #7ed957;
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 5%;
 }

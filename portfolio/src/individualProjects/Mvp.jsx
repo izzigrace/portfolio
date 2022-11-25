@@ -1,6 +1,8 @@
 import React from "react";
 import './Mvp.css';
 import MvpThree from './MvpThree.jsx';
+import link from './logos/link.png';
+import github from './logos/githubLogo.png';
 
 function Mvp() {
   return (
@@ -17,6 +19,11 @@ function Mvp() {
         </div>
         <div className="description">
           an interactive and solveable 3d rubik's like cube with smooth animations, a leaderboard, and shuffle/solve buttons
+        </div>
+        <div className="linksMVP">
+          <div className="lineDivMVP"></div>
+          <img src={github} className="githubMVP" ></img>
+          <img src={link} className="linkMVP" ></img>
         </div>
       </div>
     </div>

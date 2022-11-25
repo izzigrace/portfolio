@@ -25,7 +25,7 @@
   height: 100%;
 }
 
-.description {
+.descriptionSDC {
   color: #2a3ce1;
   font-size: 25px;
   text-align: left;
@@ -39,7 +39,7 @@
   /* height: 100%; */
 }
 
-.techStack {
+.techStackSDC {
   margin-top: 4.7%;
   margin-left: 3%;
   font-size: 15px;

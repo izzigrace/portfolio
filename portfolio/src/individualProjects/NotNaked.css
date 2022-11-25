@@ -1,15 +1,15 @@
-.allGoalseekr {
+.allNotNaked {
   display: flex;
-  height: 350px;
+  height: 100%;
 }
 
-.wholeGoalseekrModelComponent {
+.wholeNotNakedModelComponent {
   height: 80%;
   margin-left: 20%;
   float: right;
 }
 
-.wordsGoalseekr {
+.wordsNotNaked {
   margin-top: 6%;
   margin-left: 15%;
   width: 45%;
@@ -18,7 +18,7 @@
   /* width: 600px; */
 }
 
-.goalseekr {
+.notNaked {
   color: #7ed957;
   font-size: 60px;
   font-weight: bold;
@@ -28,7 +28,7 @@
   letter-spacing: 2px;
 }
 
-.descriptionGoalSeekr {
+.descriptionNotNaked {
   color: #2a3ce1;
   font-size: 25px;
   text-align: left;
@@ -36,37 +36,37 @@
   /* height: 100%; */
 }
 
-.goalseekrAndTech {
+.notNakedAndTech {
   display: flex;
   color: #7ed957;
   /* height: 100%; */
 }
 
-.techStackGoalseekr {
+.techStackNotNaked {
   margin-top: 4.7%;
   margin-left: 3%;
   font-size: 15px;
   width: 200%;
 }
 
-.goalseekrModel {
+.notNakedModel {
   height: 100%;
   margin-left: 52%;
 }
 
-.links {
+.linksNotNaked {
   display: flex;
   margin-top: 3%;
 }
-.link {
+.linkNotNaked {
   height: 35px;
   margin-right: 2%;
 }
-.github {
+.githubNotNaked {
   height: 35px;
   margin-right: 2%;
 }
-.lineDivGoalseekr {
+.lineDivNotNaked {
   width: 85%;
   height: 2px;
   background-color: #7ed957;
