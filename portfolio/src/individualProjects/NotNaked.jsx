@@ -10,14 +10,14 @@ function NotNaked() {
       <div className="wordsNotNaked">
         <div className="notNakedAndTech">
           <div className="notNaked">
-            Goalseekr
+            NotNaked
           </div>
           <div className="techStackNotNaked">
-            Redux.js · PostgreSQL · React.js · JavaScript
+            Redux · React · JavaScript · Express
           </div>
         </div>
         <div className="descriptionNotNaked">
-          a live multiplayer, motivational habit tracking game inspired by habitica and spaceward ho
+        Front end to an e-commerce retail website with a Google Lighthouse performance of 92
         </div>
         <div className="linksNotNaked">
           <img src={github} className="githubNotNaked" ></img>

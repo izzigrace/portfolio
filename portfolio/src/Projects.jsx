@@ -10,8 +10,8 @@ function Projects() {
     <div>
       <Mvp />
       <Goalseekr />
+      <Sdc />
       <NotNaked />
-      {/* <Sdc /> */}
     </div>
   )
 }

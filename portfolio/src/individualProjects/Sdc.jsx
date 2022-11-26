@@ -6,13 +6,13 @@ function Sdc() {
   return (
     <div className="sdc">
       <SdcThree classname="sdcModel" />
-      <div className="words">
+      <div className="wordsSDC">
         <div className="qandaAndTech">
-          <div className="qanda">
-            Qanda
-          </div>
           <div className="techStackSDC">
             Node · Express.js · PostgreSQL · NGINX · AWS
+          </div>
+          <div className="qanda">
+            Qanda
           </div>
         </div>
         <div className="descriptionSDC">

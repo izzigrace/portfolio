@@ -52,6 +52,7 @@
 .notNakedModel {
   height: 100%;
   margin-left: 52%;
+  /* position: absolute; */
 }
 
 .linksNotNaked {

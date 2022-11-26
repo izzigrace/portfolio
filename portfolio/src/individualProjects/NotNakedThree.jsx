@@ -42,6 +42,7 @@ class NotNakedThree extends React.Component {
           let saturn1 = gltf.scene;
           // saturn1.rotation.x = -0.15;
           gltf.scene.scale.set(1.2, 1.2, 1.2);
+          saturn1.translateY(-1);
           saturn.add(saturn1);
           scene.add(saturn1);
         });
