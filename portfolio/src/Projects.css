@@ -1,0 +1,11 @@
+.projectsComponent {
+  overflow: hidden;
+}
+
+/* .projectsMVP, .projectsGoalseekr, .projectsSDC, .projectsNotNaked {
+  margin-top: 200%;
+} */
+
+.emptyDivAtBottom {
+  height: 150px;
+}

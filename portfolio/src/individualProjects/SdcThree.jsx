@@ -12,7 +12,7 @@ class SdcThree extends React.Component {
 
   componentDidMount() {
         //make and render scene
-        var scene = new THREE.Scene();
+        var sceneSDC = new THREE.Scene();
         // scene.background = new THREE.Color( 0x00000 );
 
         // webglrenderer displays your scene using webgl. antialias: true is making it more realistic by smoothing jagged lines
@@ -26,11 +26,11 @@ class SdcThree extends React.Component {
         var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
         camera.position.set( 0, 1, 0 );
         camera.position.z = 5;
-        scene.add(camera);
+        sceneSDC.add(camera);
 
         //make lights
         const ambientLight = new THREE.AmbientLight( 0xffffff, 1 );
-        scene.add( ambientLight );
+        sceneSDC.add( ambientLight );
         var light = new THREE.PointLight( 0xffffff, 0.5 );
         camera.add( light );
 
@@ -40,9 +40,9 @@ class SdcThree extends React.Component {
           let server1 = gltf.scene;
           server1.rotation.y = 3.14;
           server.add(server1);
-          scene.add(server1);
+          sceneSDC.add(server1);
         });
-        scene.add(server);
+        sceneSDC.add(server);
         server.position.set(0, 0, 0);
 
         //set orbit controls
@@ -57,7 +57,7 @@ class SdcThree extends React.Component {
         function animate() {
           controls.update();
           requestAnimationFrame( animate );
-          renderer.render( scene, camera );
+          renderer.render( sceneSDC, camera );
         }
         animate();
   }

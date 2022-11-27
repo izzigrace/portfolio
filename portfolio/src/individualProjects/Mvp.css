@@ -1,11 +1,13 @@
 .mvp {
   display: flex;
   height: 350px;
+  margin-top: 50px;
 }
 
 .mvpModel {
   height: 30%;
   margin-left: 3%;
+  margin-top: 2%;
 }
 
 .words {

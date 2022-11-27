@@ -7,11 +7,12 @@ import NotNaked from './individualProjects/NotNaked.jsx';
 
 function Projects() {
   return (
-    <div>
-      <Mvp />
-      <Goalseekr />
-      <Sdc />
-      <NotNaked />
+    <div className="projectsComponent">
+      <Mvp className="projectsMVP" />
+      <Goalseekr className="projectsGoalSeekr" />
+      <Sdc className="projectsSDC" />
+      <NotNaked className="projectsNotNaked" />
+      <div className="emptyDivAtBottom" ></div>
     </div>
   )
 }

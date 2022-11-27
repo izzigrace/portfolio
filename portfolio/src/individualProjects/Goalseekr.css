@@ -1,6 +1,7 @@
 .allGoalseekr {
   display: flex;
   height: 350px;
+  margin-top: 100px;
 }
 
 .wholeGoalseekrModelComponent {
@@ -52,6 +53,7 @@
 .goalseekrModel {
   height: 100%;
   margin-left: 52%;
+  margin-top: 2%;
 }
 
 .links {

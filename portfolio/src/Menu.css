@@ -111,7 +111,7 @@
   margin-left: 8%;
   margin-right: 8%;
 }
-.menusLink1::after {
+/* .menusLink1::after {
   margin-left: 88.1%;
   content: '';
   position: absolute;
@@ -128,14 +128,14 @@
 .menusLink1:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 .menusLink2 {
   text-decoration: none;
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
 }
-.menusLink2::after {
+/* .menusLink2::after {
   margin-left: 80.2%;
   content: '';
   position: absolute;
@@ -152,14 +152,14 @@
 .menusLink2:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 .menusLink3 {
   text-decoration: none;
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
 }
-.menusLink3::after {
+/* .menusLink3::after {
   margin-left: 73.3%;
   content: '';
   position: absolute;
@@ -176,7 +176,7 @@
 .menusLink3:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 .resumeLink {
   text-decoration: none;
   color: #7ed957;
@@ -184,7 +184,7 @@
   margin-left: 8%;
   margin-right: 8%;
 }
-.resumeLink::after {
+/* .resumeLink::after {
   margin-left: 23.08%;
   content: '';
   position: absolute;
@@ -201,7 +201,7 @@
 .resumeLink:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 .githubLink {
   text-decoration: none;
   color: #7ed957;
@@ -209,7 +209,7 @@
   margin-left: 8%;
   margin-right: 8%;
 }
-.githubLink::after {
+/* .githubLink::after {
   margin-left: 15.87%;
   content: '';
   position: absolute;
@@ -226,7 +226,7 @@
 .githubLink:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 .linkedInLink {
   text-decoration: none;
   color: #7ed957;
@@ -234,7 +234,7 @@
   margin-left: 40%;
   margin-right: 8%;
 }
-.linkedInLink::after {
+/* .linkedInLink::after {
   margin-left: 7.9%;
   content: '';
   position: absolute;
@@ -251,4 +251,4 @@
 .linkedInLink:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */

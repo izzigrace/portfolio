@@ -19,7 +19,7 @@ class MvpThree extends React.Component {
         var renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize( window.innerWidth * 0.5, window.innerHeight * 0.5);
         renderer.setClearColor( 0x000000, 0 ); //??
-        const theDiv = document.getElementById("sdcDiv");
+        const theDiv = document.getElementById("mvpDiv");
         theDiv.appendChild( renderer.domElement );
 
         //make and position camera
@@ -65,7 +65,7 @@ class MvpThree extends React.Component {
 
   render() {
     return (
-      <div id="sdcDiv" className="sdcModel">
+      <div id="mvpDiv" className="mvpModel">
       </div>
     )
   }

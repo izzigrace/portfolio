@@ -41,7 +41,7 @@ class SdcThree extends React.Component {
         gltfLoader.load(saturnModel, function(gltf) {
           let saturn1 = gltf.scene;
           saturn1.rotation.x = -0.15;
-          gltf.scene.scale.set(1.9, 1.9, 1.9);
+          gltf.scene.scale.set(1.97, 1.97, 1.97);
           saturn.add(saturn1);
           scene.add(saturn1);
         });

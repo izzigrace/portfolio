@@ -40,10 +40,10 @@
 
 .blobsComponent {
   position: absolute;
-  z-index: 0;
+  z-index: -500;
   margin-left: 80%;
 }
 
 .projectsComponent {
-  z-index: 8;
+  z-index: 80;
 }

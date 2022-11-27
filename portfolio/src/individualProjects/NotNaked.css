@@ -1,6 +1,7 @@
 .allNotNaked {
   display: flex;
   height: 100%;
+  margin-top: 100px;
 }
 
 .wholeNotNakedModelComponent {
@@ -52,6 +53,7 @@
 .notNakedModel {
   height: 100%;
   margin-left: 52%;
+  margin-top: 2%;
   /* position: absolute; */
 }
 
