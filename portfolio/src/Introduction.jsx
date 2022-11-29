@@ -1,4 +1,3 @@
-import Typical from "react-typical";
 import Typed from 'react-typed';
 import { useState, useEffect } from 'react';
 import React from "react";

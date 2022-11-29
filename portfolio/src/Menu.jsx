@@ -3,6 +3,7 @@ import React from "react";
 import './Menu.css';
 import logo from './logos/izziLogoWhite.png';
 import menuLines from './logos/menuLines.png';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Menu() {
 
@@ -37,19 +38,19 @@ function Menu() {
 
   function rollOutMenu() {
     setTimeout(() => {
-      setContact(<a href="url" className="menusLink1" >Contact</a>);
+      setContact(<Link to="/contact" className="menusLink1" >Contact</Link>);
     }, 30);
     setTimeout(() => {
       setDotTwo(<div className="dot">·</div>);
     }, 60);
     setTimeout(() => {
-      setProjects(<a href="url" className="menusLink2">Projects</a>);
+      setProjects(<Link to="/projects" className="menusLink2">Projects</Link>);
     }, 90);
     setTimeout(() => {
       setDotOne(<div className="dot">·</div>);
     }, 120);
     setTimeout(() => {
-      setAbout(<a href="url" className="menusLink3" >About</a>);
+      setAbout(<Link to="/" className="menusLink3" >About</Link>);
     }, 150);
   }
 

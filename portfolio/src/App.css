@@ -44,6 +44,11 @@
   margin-left: 80%;
 }
 
+.blobsTempComponent {
+  position: absolute;
+  z-index: -500;
+}
+
 .projectsComponent {
   z-index: 80;
 }
