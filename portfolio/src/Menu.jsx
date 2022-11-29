@@ -50,7 +50,7 @@ function Menu() {
       setDotOne(<div className="dot">·</div>);
     }, 120);
     setTimeout(() => {
-      setAbout(<Link to="/" className="menusLink3" >About</Link>);
+      setAbout(<Link to="/about2" className="menusLink3" >About</Link>);
     }, 150);
   }
 
