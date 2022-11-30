@@ -6,7 +6,7 @@ import line4 from './blobExtrasPNGs/6.png';
 
 function BlobsLines() {
   return (
-    <Parallax speed={-36} className="parallaxBlobsLines">
+    <Parallax speed={-35} className="parallaxBlobsLines">
       <div className="blobsLines">
         <img className="line1" src={line1}></img>
         <img className="line2" src={line2}></img>

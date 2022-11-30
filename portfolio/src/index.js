@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import gif from './loadingGif/blobLoader.gif';
-import outlineFont from './fonts/OscanExpanded-Outline.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

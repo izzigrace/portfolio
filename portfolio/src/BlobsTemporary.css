@@ -1,9 +1,9 @@
 .blobsTemporary {
-  overflow: hidden;
   z-index: -500;
 }
 
 .parallaxBlobs {
+  overflow-x: clip;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -28,8 +28,15 @@
 
 .tempBlob8 {
   position: absolute;
-  height: 50%;
+  height: 70%;
   z-index: -500;
+  margin-top: 70%;
+  margin-left: 80%;
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -moz-transform: rotate(180deg);   /* Firefox */
+  -ms-transform: rotate(180deg);   /* IE 9 */
+  -o-transform: rotate(180deg);   /* Opera */
+  transform: rotate(180deg);
 }
 
 .tempBlob9 {

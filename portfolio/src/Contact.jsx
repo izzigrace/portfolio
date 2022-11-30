@@ -11,6 +11,12 @@ function Contact() {
       <div className="contact">
         CONTACT
       </div>
+      <div className="myNumber">
+       &#40;509&#41;961-2629
+      </div>
+      <div className="myEmail">
+        izzigrace6@gmail.com
+      </div>
     </motion.div>
   );
 }

@@ -1,6 +1,23 @@
 .contact {
+  font-size: 30px;
+  color: white;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "OscanExpanded-Outline";
+}
+
+.myNumber {
+  color: #7ed957;
   font-size: 50px;
-  color: blueviolet;
-  margin-top: 100px;
-  margin-left: 600px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Bowlby One', cursive;
+}
+
+.myEmail {
+  color: #7ed957;
+  font-size: 57px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Bowlby One', cursive;
 }

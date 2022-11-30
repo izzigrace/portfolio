@@ -17,7 +17,7 @@ function BlobsTemporary() {
       <div className="blobsTemporary">
         <img className="tempBlob1" src={blob1}></img>
         <img className="tempBlob2" src={blob2}></img>
-        {/* <img className="tempBlob8" src={blob8}></img> */}
+        <img className="tempBlob8" src={blob8}></img>
         {/* <img className="tempBlob9" src={blob9}></img> */}
         {/* <img className="tempBlob10" src={blob10}></img> */}
         {/* <img className="line1" src={line1}></img> */}

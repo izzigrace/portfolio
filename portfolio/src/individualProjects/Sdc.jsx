@@ -18,7 +18,7 @@ function Sdc() {
           </div>
         </div>
         <div className="descriptionSDC">
-          and optimized backend of a retail website built to withstand thousands of clients at once
+          an optimized backend of a retail website built to withstand thousands of clients at once
         </div>
         <div className="linksSDC">
           <div className="lineDivSDC"></div>
