@@ -1,0 +1,43 @@
+.blobsLines {
+  overflow: hidden;
+  z-index: -500;
+}
+
+.parallaxBlobsLines {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -500;
+}
+
+.line1 {
+  position: absolute;
+  height: 24%;
+  margin-left: 78%;
+  margin-top: 2%;
+  z-index: -500;
+}
+
+.line2 {
+  position: absolute;
+  height: 26%;
+  margin-left: 15%;
+  margin-top: 35%;
+  z-index: -500;
+}
+
+.line3 {
+  position: absolute;
+  height: 30%;
+  margin-left: 7%;
+  margin-top: 3%;
+  z-index: -500;
+}
+
+.line4 {
+  position: absolute;
+  height: 20%;
+  margin-left: 11%;
+  margin-top: 7%;
+  z-index: -500;
+}

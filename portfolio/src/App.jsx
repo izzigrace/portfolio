@@ -15,6 +15,7 @@ import {
   useLocation
 } from "react-router-dom";
 import AnimatedRoutes from './AnimatedRoutes';
+import BlobsLines from './BlobsLines.jsx';
 
 function App() {
   const [loadingDiv, setLoadingDiv] = useState(<img src={gif} className="gif"></img>);
@@ -28,6 +29,7 @@ function App() {
         {loadingDiv}
         <Menu />
         <BlobsTemporary className='blobsTempComponent'/>
+        <BlobsLines className='blobsTempComponent'/>
         {/* <Blobs className="blobsComponent"/> */}
         <AnimatedRoutes />
       </Router>

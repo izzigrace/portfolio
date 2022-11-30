@@ -110,6 +110,8 @@
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .menusLink1::after {
   margin-left: 88.1%;
@@ -134,6 +136,8 @@
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .menusLink2::after {
   margin-left: 80.2%;
@@ -158,6 +162,8 @@
   color: #7ed957;
   margin-left: 8%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .menusLink3::after {
   margin-left: 73.3%;
@@ -183,6 +189,8 @@
   margin-top: 10.5%;
   margin-left: 8%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .resumeLink::after {
   margin-left: 23.08%;
@@ -208,6 +216,8 @@
   margin-top: 10.5%;
   margin-left: 8%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .githubLink::after {
   margin-left: 15.87%;
@@ -233,6 +243,8 @@
   margin-top: 10.5%;
   margin-left: 40%;
   margin-right: 8%;
+  background-color: #17181E;
+  border-radius: 3px;
 }
 /* .linkedInLink::after {
   margin-left: 7.9%;
