@@ -39,10 +39,6 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": [
-      "mdcs",
-      "plugin:compat/recommended"
-    ],
     "parser": "@babel/eslint-parser",
     "parserOptions": {
       "babelOptions": {
@@ -50,7 +46,6 @@
       }
     },
     "plugins": [
-      "html",
       "import"
     ],
     "settings": {
