@@ -32,7 +32,7 @@ function Menu() {
       setMenuDotTwo(<div className="menuDot">·</div>);
     }, 120);
     setTimeout(() => {
-      setResumeDiv(<a href="https://drive.google.com/file/d/1dwkvLmwZ1wfzVQhS0W7JDEOkVxkMh2uw/view?usp=share_link" className="resumeLink" target="_blank" rel="noreferrer">Resume</a>);
+      setResumeDiv(<a href="https://drive.google.com/file/d/1rh7W9DjW8p-ECaqsx4fhDpOLcuhEWq5j/view?usp=share_link" className="resumeLink" target="_blank" rel="noreferrer">Resume</a>);
     }, 150);
   };
 

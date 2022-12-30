@@ -16,7 +16,7 @@ class SdcThree extends React.Component {
         // scene.background = new THREE.Color( 0x00000 );
 
         // webglrenderer displays your scene using webgl. antialias: true is making it more realistic by smoothing jagged lines
-        var renderer = new THREE.WebGLRenderer({ antialias: false });
+        var renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize( window.innerWidth * 0.5, window.innerHeight * 0.5);
         renderer.setClearColor( 0x000000, 0 ); //??
         const theDiv = document.getElementById("sdcDiv");
